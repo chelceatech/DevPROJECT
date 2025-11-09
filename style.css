@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5dde7;
+  color: #333;
+}
+
+
+header {
+  background: #fca7bc;
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-badge {
+  background: #c2185b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.7rem;
+  color: #c2185b;
+  margin-left: 0.6rem;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #444;
+  padding-bottom: 3px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #c2185b;
+  border-bottom: 2px solid #c2185b;
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #fac9d5;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  color: #c2185b;
+  margin-bottom: 1rem;
+}
+
+
+.trending {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #ffe6ec;
+}
+
+.trend-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.trend-item {
+  width: 250px;
+  text-align: center;
+  margin: 0.75rem;
+}
+
+.trend-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.product-gallery {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #ffe6ec;
+}
+.product-gallery h2{
+  color: #c2185b;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 15px;
+  margin: 0.75rem;
+  width: 300px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.sizes {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.sizes span {
+  border: 1.5px solid #c2185b;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  color: #c2185b;
+  font-weight: 600;
+  margin: 0 0.3rem;
+}
+
+.sizes span:hover {
+  background: #c2185b;
+  color: #fff;
+}
+
+.btn, .btn-secondary {
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.btn {
+  background: #c2185b;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background: #a1154e;
+}
+
+.btn-secondary {
+  color: #c2185b;
+}
+
+.btn-secondary:hover {
+  color: #a1154e;
+}
+
+.inspo {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #ffe6ec;
+}
+
+.inspo img {
+  margin-top: 1rem;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.story {
+  background: #ffe6ec;
+  
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.story-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.story h2 {
+  font-size: 1.8rem;
+  color: #d66a91;
+  margin-bottom: 1rem;
+}
+
+.story p {
+  font-size: 1.1rem;
+  color: #444;
+  font-style: italic;
+}
+
+.product-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffe6ec;
+  padding: 1rem 1rem;
+}
+
+.product-detail {
+  background: #fff;
+  border-radius: 20px;
+  padding: 2.5rem;
+  width: 50%;
+  text-align: center;
+}
+
+.product-detail img {
+  width: 50%;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.product-detail h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #c2185b;
+  margin-bottom: 0.5rem;
+}
+
+.product-detail p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #a1154e;
+  font-size: 1.1rem;
+}
+
+
+
+footer {
+  text-align: center;
+  background: #ffe6ec;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #444;
+}
